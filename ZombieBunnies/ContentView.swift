@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var introduction: Bool = false
     var body: some View {
-        Text("Hello, World!")
+        Button(action: {self.introduction = true
+            }) {
+                Image("AotZB")
+                    .resizable()
+                    .renderingMode(.original)
+                }.sheet(isPresented: $introduction, content: {
+                       Intro()
+                })
     }
 }
 
