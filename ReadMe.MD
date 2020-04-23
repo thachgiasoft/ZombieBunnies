@@ -1,3 +1,10 @@
+Old style adventure game
+
+This is a private version of the 
+book by Steve Barlow and Steve Skidmore - all copyright belongs to them
+
+
+
 // This file contains all the thoughts about the creation of this game
 
 // done - Storing 50 files in the main group did not work - create folder - done
